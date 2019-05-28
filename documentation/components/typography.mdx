@@ -1,0 +1,149 @@
+---
+name: Typography
+menu: Components
+route: /components/typography
+---
+
+import { Playground, Props } from 'docz';
+import { ThemeProvider } from 'styled-components';
+import { Text } from '../../src';
+import theme from '../../src/theme';
+
+# Examples
+
+```jsx
+import { Text } from 'oss-style-system';
+
+const theme = {};
+
+const Example = () => (
+  <ThemeProvider theme={theme}>
+    <Text as="h1" variant="h1">
+      A Visual Type Scale
+    </Text>
+  </ThemeProvider>
+);
+```
+
+## h1/bodyPrimary
+
+<Playground>
+  <ThemeProvider theme={theme}>
+    <React.Fragment>
+      <Text as="h1" variant="h1">
+        A Visual Type Scale
+      </Text>
+      <Text as="p" variant="bodyPrimary">
+        What looked like a small patch of purple grass, above five feet square, was moving across the sand in their
+        direction. When it came near enough he perceived that it was not grass; there were no blades, but only purple
+        roots. The roots were revolving, for each small plant in the whole patch, like the spokes of a rimless wheel.
+      </Text>
+    </React.Fragment>
+  </ThemeProvider>
+</Playground>
+
+## h2/bodyPrimary
+
+<Playground>
+  <ThemeProvider theme={theme}>
+    <React.Fragment>
+      <Text as="h2" variant="h2">
+        A Visual Type Scale
+      </Text>
+      <Text as="p" variant="bodyPrimary">
+        What looked like a small patch of purple grass, above five feet square, was moving across the sand in their
+        direction. When it came near enough he perceived that it was not grass; there were no blades, but only purple
+        roots. The roots were revolving, for each small plant in the whole patch, like the spokes of a rimless wheel.
+      </Text>
+    </React.Fragment>
+  </ThemeProvider>
+</Playground>
+
+## h3/bodyPrimary
+
+<Playground>
+  <ThemeProvider theme={theme}>
+    <React.Fragment>
+      <Text as="h3" variant="h3">
+        A Visual Type Scale
+      </Text>
+      <Text as="p" variant="bodyPrimary">
+        What looked like a small patch of purple grass, above five feet square, was moving across the sand in their
+        direction. When it came near enough he perceived that it was not grass; there were no blades, but only purple
+        roots. The roots were revolving, for each small plant in the whole patch, like the spokes of a rimless wheel.
+      </Text>
+    </React.Fragment>
+  </ThemeProvider>
+</Playground>
+
+## h4/bodyPrimary
+
+<Playground>
+  <ThemeProvider theme={theme}>
+    <React.Fragment>
+      <Text as="h4" variant="h4">
+        A Visual Type Scale
+      </Text>
+      <Text as="p" variant="bodyPrimary">
+        What looked like a small patch of purple grass, above five feet square, was moving across the sand in their
+        direction. When it came near enough he perceived that it was not grass; there were no blades, but only purple
+        roots. The roots were revolving, for each small plant in the whole patch, like the spokes of a rimless wheel.
+      </Text>
+    </React.Fragment>
+  </ThemeProvider>
+</Playground>
+
+## h5/bodyPrimary
+
+<Playground>
+  <ThemeProvider theme={theme}>
+    <React.Fragment>
+      <Text as="h5" variant="h5">
+        A Visual Type Scale
+      </Text>
+      <Text as="p" variant="bodyPrimary">
+        What looked like a small patch of purple grass, above five feet square, was moving across the sand in their
+        direction. When it came near enough he perceived that it was not grass; there were no blades, but only purple
+        roots. The roots were revolving, for each small plant in the whole patch, like the spokes of a rimless wheel.
+      </Text>
+    </React.Fragment>
+  </ThemeProvider>
+</Playground>
+
+## h6/bodyPrimary
+
+<Playground>
+  <ThemeProvider theme={theme}>
+    <React.Fragment>
+      <Text as="h6" variant="h6">
+        A Visual Type Scale
+      </Text>
+      <Text as="p" variant="bodyPrimary">
+        What looked like a small patch of purple grass, above five feet square, was moving across the sand in their
+        direction. When it came near enough he perceived that it was not grass; there were no blades, but only purple
+        roots. The roots were revolving, for each small plant in the whole patch, like the spokes of a rimless wheel.
+      </Text>
+    </React.Fragment>
+  </ThemeProvider>
+</Playground>
+
+## subtitle/bodySecondary
+
+<Playground>
+  <ThemeProvider theme={theme}>
+    <React.Fragment>
+      <Text as="h6" variant="subtitle">
+        A Visual Type Scale
+      </Text>
+      <Text as="p" variant="bodySecondary">
+        What looked like a small patch of purple grass, above five feet square, was moving across the sand in their
+        direction. When it came near enough he perceived that it was not grass; there were no blades, but only purple
+        roots. The roots were revolving, for each small plant in the whole patch, like the spokes of a rimless wheel.
+      </Text>
+    </React.Fragment>
+  </ThemeProvider>
+</Playground>
+
+## Props
+
+<Props of={Text} />

@@ -1,0 +1,45 @@
+---
+name: Buttons
+menu: Components
+route: /components/buttons
+---
+
+import { Playground, Props } from 'docz';
+import { ThemeProvider } from 'styled-components';
+import { Button } from '../../src';
+import theme from '../../src/theme';
+
+# Examples
+
+```jsx
+import { Button } from 'oss-style-system';
+import { ThemeProvider } from 'styled-components';
+
+const theme = {};
+
+const Component = () => (
+  <ThemeProvider theme={theme}>
+    <Button>I'm a button</Button>
+  </ThemeProvider>
+);
+```
+
+<Playground>
+  <ThemeProvider theme={theme}>
+    <React.Fragment>
+      <div style={{marginBottom: '10px'}}><Button variant="primary">I'm a primary button</Button></div>
+      <div style={{marginBottom: '10px'}}><Button variant="secondary">I'm a secondary button</Button></div>
+      <div><Button>I'm a default button</Button></div>
+    </React.Fragment>
+
+  </ThemeProvider>
+</Playground>
+
+## Variants
+
+- primary
+- secondary
+
+## Props
+
+<Props of={Button} />
