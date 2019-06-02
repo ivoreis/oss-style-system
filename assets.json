@@ -1,0 +1,21 @@
+{
+  "vendors.js": "/oss-style-system/static/js/vendors.04e176a4.js",
+  "vendors.js.map": "/oss-style-system/static/js/vendors.46004182e4ef233c0d46.js.map",
+  "app.js": "/oss-style-system/static/js/app.46004182e4ef233c0d46.js",
+  "app.js.map": "/oss-style-system/static/js/app.46004182e4ef233c0d46.js.map",
+  "changelog.js": "/oss-style-system/static/js/changelog.b4c2aa30.js",
+  "changelog.js.map": "/oss-style-system/static/js/changelog.46004182e4ef233c0d46.js.map",
+  "code-of-conduct.js": "/oss-style-system/static/js/code-of-conduct.9b4b8271.js",
+  "code-of-conduct.js.map": "/oss-style-system/static/js/code-of-conduct.46004182e4ef233c0d46.js.map",
+  "contributing.js": "/oss-style-system/static/js/contributing.d22f8236.js",
+  "contributing.js.map": "/oss-style-system/static/js/contributing.46004182e4ef233c0d46.js.map",
+  "documentation-components-buttons.js": "/oss-style-system/static/js/documentation-components-buttons.06ebbf8b.js",
+  "documentation-components-buttons.js.map": "/oss-style-system/static/js/documentation-components-buttons.46004182e4ef233c0d46.js.map",
+  "documentation-components-index.js": "/oss-style-system/static/js/documentation-components-index.1c318ca5.js",
+  "documentation-components-index.js.map": "/oss-style-system/static/js/documentation-components-index.46004182e4ef233c0d46.js.map",
+  "documentation-components-typography.js": "/oss-style-system/static/js/documentation-components-typography.39de4187.js",
+  "documentation-components-typography.js.map": "/oss-style-system/static/js/documentation-components-typography.46004182e4ef233c0d46.js.map",
+  "documentation-index.js": "/oss-style-system/static/js/documentation-index.8a251a56.js",
+  "documentation-index.js.map": "/oss-style-system/static/js/documentation-index.46004182e4ef233c0d46.js.map",
+  "index.html": "/oss-style-system/index.html"
+}
